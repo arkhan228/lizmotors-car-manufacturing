@@ -1,0 +1,178 @@
+/* 1340PX */
+@media (max-width: 83.75em) {
+  .container {
+    width: 120rem;
+  }
+
+  .tree {
+    width: 100%;
+  }
+}
+
+/* 1220PX */
+@media (max-width: 76.25em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .container {
+    width: 105rem;
+  }
+
+  .section {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 4.8rem;
+  }
+
+  .section h2 {
+    font-size: 3.6rem;
+  }
+
+  .section-content h3 {
+    font-size: 2.8rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .section-content p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+}
+
+/* 980PX */
+@media only screen and (max-width: 61.25em) {
+  html {
+    font-size: 50%;
+  }
+
+  .section {
+    margin-bottom: 8rem;
+  }
+}
+
+/* 840PX */
+@media only screen and (max-width: 52.5em) {
+  .container {
+    width: 85rem;
+  }
+
+  .tree .list {
+    padding-left: 2rem;
+  }
+
+  .tree .list-item::before,
+  .tree .list-item::after {
+    width: 2rem;
+  }
+
+  .tree .list .list::before {
+    width: 2rem;
+  }
+
+  .tree .list .list-item {
+    padding-left: 2rem;
+  }
+
+  .tree .list-item:only-child {
+    padding-left: 0;
+  }
+
+  .tree .list-item .list-item-box::before,
+  .tree .list .list::after {
+    left: 1.5rem;
+  }
+
+  .tree .list:first-child::after {
+    left: -0.6rem;
+  }
+
+  .list-item-box {
+    min-width: 13rem;
+    font-size: 1.4rem;
+    padding: 0.4rem 0.2rem;
+  }
+
+  .btn-reset {
+    right: 10rem;
+  }
+
+  /* Section Styles */
+  .section {
+    width: 70rem;
+    margin-bottom: 5.6rem;
+  }
+
+  .section-content {
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+  }
+
+  .section-content img {
+    width: 60%;
+    grid-row: 1;
+  }
+
+  .section-content div {
+    width: 100%;
+  }
+}
+
+/* 700PX */
+@media only screen and (max-width: 43.75em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+/* 600PX */
+@media only screen and (max-width: 37.5em) {
+  html {
+    font-size: 37.5%;
+  }
+}
+
+/* 480PX */
+@media only screen and (max-width: 30em) {
+  html {
+    font-size: 31.25%;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .btn-reset {
+    right: 4rem;
+  }
+
+  .section h2 {
+    font-size: 3.2rem;
+  }
+
+  .form input {
+    padding: 0.3rem 0.6rem;
+  }
+}
+
+/* 300PX For galaxy fold portrait mode😅*/
+@media only screen and (max-width: 18.75em) {
+  html {
+    font-size: 25%;
+  }
+
+  .container {
+    width: 70rem;
+  }
+
+  .section {
+    width: 100%;
+  }
+
+  .btn-reset {
+    right: 1rem;
+  }
+}
